@@ -1,2 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 800px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 5px;
+}
 
 /* Your CSS Code here. */
